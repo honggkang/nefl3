@@ -30,15 +30,18 @@ layout: home
                    <a href="resources/qifk2023poster.pdf">
                      [<b>Poster</b>]
                    </a>  -->
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="https://github.com/honggkang/nested-federated-learning">
-                        [<b>Code</b>]
+                    [<b>Code</b>]
+                    </a>
            </div>
  </center>
 
 
 ### TL;DR
 NeFL divides a model into submodels by widthwise or/and depthwise and aggregate the knowledge of submodels.
+
+<img src="./resources/nefl_frame.png" alt="drawing" width="700"/>
 
 ### Abstract
   Federated learning (FL) is a promising approach in distributed learning keeping privacy.
