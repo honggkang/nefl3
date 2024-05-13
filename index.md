@@ -17,23 +17,23 @@ layout: home
         <sup>1</sup> KAIST &nbsp; &nbsp; &nbsp;
     </span>
     <!-- <br> -->
-    <div class="paper-btn-parent">
-        <a href="https://arxiv.org/abs/2308.07761">
-            [<b>Paper</b>]
-        </a>
-        <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://arxiv.org/abs/">
-            [<b>arXiv </b>]
-        </a>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="resources/qifk2023poster.pdf">
-            [<b>Poster</b>]
-        </a>  -->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/honggkang/nested-federated-learning">
-        [<b>Code</b>]
-        </a>
+<div class="paper-btn-parent">
+    <a href="https://arxiv.org/abs/2308.07761">
+        [<b>Paper</b>]
+    </a>
+    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://arxiv.org/abs/">
+        [<b>arXiv </b>]
+    </a>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="resources/qifk2023poster.pdf">
+        [<b>Poster</b>]
+    </a>  -->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/honggkang/nested-federated-learning">
+    [<b>Code</b>]
+    </a>
 </div>
 
 
