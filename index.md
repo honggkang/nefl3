@@ -12,11 +12,11 @@ layout: home
     Jongmyeong Lee<sup>1</sup>, &nbsp;
     <a href="https://artlab.kaist.ac.kr/bbs/board.php?bo_table=sub1_1">Joonhyuk Kang</a><sup>1</sup>,
 </div>
-    <!-- <br> -->
+    <br>
     <span style="font-size:16px">
         <sup>1</sup> KAIST &nbsp; &nbsp; &nbsp;
     </span>
-    <!-- <br> -->
+    <br>
 <div class="paper-btn-parent">
     <a href="https://arxiv.org/abs/2308.07761">
         [<b>Paper</b>]

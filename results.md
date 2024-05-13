@@ -21,6 +21,8 @@ layout: home
 <tr><td>DepthFL</td><td>25.73</td><td>75.30</td><td>14.51</td><td>46.79</td><td>32.05</td><td>67.04</td><td>74.33</td><td>89.96</td></tr>
 <tr><td>ScaleFL</td><td>54.72</td><td>81.05</td><td>22.62</td><td>46.41</td><td>49.69</td><td>69.43</td><td>86.46</td><td>93.21</td></tr>
 <tr><td><strong>NeFL(ours)</strong></td><td><strong>87.71</strong></td><td><strong>89.02</strong></td><td><strong>55.22</strong></td><td><strong>56.26</strong></td><td><strong>75.02</strong></td><td><strong>76.68</strong></td><td><strong>94.72</strong></td><td><strong>95.22</strong></td></tr>
+</tbody>
+</table>
 
 <!-- <table align="center" width=800px border="1" style="border-collapse: collapse; border: 0.5px solid black; margin: auto; text-align: center">
     <caption>Results of NeFL for CIFAR-10 dataset under <b>IID</b> (left) and <b>non-IID</b> (right) settings are presented: Top-1 classification accuracies (%) for the worst-case submodel and the average of the performance of five submodels.</caption>
