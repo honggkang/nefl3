@@ -4,7 +4,7 @@ layout: home
 ---
 # NeFL: Nested Model Scaling for Federated Learning with System Heterogeneous Clients
 
-<!-- <center> -->
+
 <div style="font-size:16px; white-space: nowrap;">
     <a href="https://honggkang.github.io/about/">Honggu Kang</a><sup>1</sup>, &nbsp;
     <a href="https://seohyeon-cha.github.io/">Seohyeon Cha</a><sup>1</sup>, &nbsp;
@@ -35,7 +35,6 @@ layout: home
         [<b>Code</b>]
         </a>
 </div>
- <!-- </center> -->
 
 
 ### TL;DR
