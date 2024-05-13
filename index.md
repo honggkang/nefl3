@@ -2,46 +2,40 @@
 title: Home
 layout: home
 ---
-## NeFL: Nested Model Scaling for Federated Learning with System Heterogeneous Clients
+# NeFL: Nested Model Scaling for Federated Learning with System Heterogeneous Clients
 
-   <center>
-                      <div style="font-size:24px; white-space: nowrap;">
-                          <a href="https://honggkang.github.io/about/">Honggu Kang</a><sup>1</sup>, &nbsp;
-                          <a href="https://seohyeon-cha.github.io/">Seohyun Cha</a><sup>1</sup>, &nbsp;
-                          <a href="https://alinlab.kaist.ac.kr/shin.html" style="text-decoration:none;">Jinwoo Shin</a><sup>1</sup>, &nbsp;
-                          Jongmyeong Lee<sup>1</sup>, &nbsp;
-                          <a href="https://artlab.kaist.ac.kr/bbs/board.php?bo_table=sub1_1">Joonhyuk Kang</a><sup>1</sup>,
-                      </div>
-                      <br>
-                      <span style="font-size:20px">
-                          <sup>1</sup> KAIST &nbsp; &nbsp; &nbsp;
-                      </span>
-                      <br>
-                      <div class="paper-btn-parent">
-                          <a href="https://arxiv.org/abs/2308.07761">
-                              [<b>Paper</b>]
-                          </a>
-                          <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                          <a href="https://arxiv.org/abs/">
-                              [<b>arXiv </b>]
-                          </a> -->
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                          <a href="https://github.com/honggkang/nested-federated-learning">
-                              [<b>Code</b>]
-                          </a>
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="resources/qifk2023poster.pdf">
-            [<b>Poster</b>]
-          </a>
-                    </div>
-    </center>
-                  
-<p style="text-align: center;">
+<center>
+          <div style="font-size:16px; white-space: nowrap;">
+              <a href="https://honggkang.github.io/about/">Honggu Kang</a><sup>1</sup>, &nbsp;
+              <a href="https://seohyeon-cha.github.io/">Seohyeon Cha</a><sup>1</sup>, &nbsp;
+              <a href="https://alinlab.kaist.ac.kr/shin.html" style="text-decoration:none;">Jinwoo Shin</a><sup>1</sup>, &nbsp;
+              Jongmyeong Lee<sup>1</sup>, &nbsp;
+              <a href="https://artlab.kaist.ac.kr/bbs/board.php?bo_table=sub1_1">Joonhyuk Kang</a><sup>1</sup>,
+          </div>
+                <br>
+                <span style="font-size:16px">
+                    <sup>1</sup> KAIST &nbsp; &nbsp; &nbsp;
+                </span>
+                <br>
+             <div class="paper-btn-parent">
+                    <a href="https://arxiv.org/abs/2308.07761">
+                        [<b>Paper</b>]
+                    </a>
+                    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/">
+                        [<b>arXiv </b>]
+                    </a>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <a href="resources/qifk2023poster.pdf">
+                     [<b>Poster</b>]
+                   </a>  -->
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://github.com/honggkang/nested-federated-learning">
+                        [<b>Code</b>]
+           </div>
+ </center>
 
-[Honggu Kang], [Seohyeon Cha], [Jinwoo Shin], Jongmyeong Lee, [Joonhyuk Kang]
-
-KAIST
-</p>
 
 ### TL;DR
 NeFL divides a model into submodels by widthwise or/and depthwise and aggregate the knowledge of submodels.
