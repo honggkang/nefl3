@@ -7,10 +7,15 @@ layout: home
 Results of NeFL with five submodels and SOTA baselines on five datasets under IID settings. We report test performance including Top-1 classification accuracies (%) for the worst-case submodel and the average performance over five submodels.
 <table>
 <tbody>
-<tr><th rowspan=3>Model</th><th rowspan=3>Method</th><th colspan=2>CIFAR-10</th><th colspan=2>CIFAR-100</th><th colspan=2>CINIC-10</th><th colspan=2>SVHN</th></tr>
+<tr><th rowspan=3>Model</th>
+<th rowspan=3>Method</th>
+<th colspan=2>CIFAR-10</th>
+<th colspan=2>CIFAR-100</th>
+<th colspan=2>CINIC-10</th>
+<th colspan=2>SVHN</th></tr>
 <tr><th>Worst</th><th>Avg</th><th>Worst</th><th>Avg</th><th>Worst</th><th>Avg</th><th>Worst</th><th>Avg</th></tr>
 <tr></tr>
-<td rowspan=5>ResNet18</td>
+<tr><td rowspan=5>ResNet18</td>
 <td>HeteroFL</td><td>80.62</td><td>84.26</td><td>41.33</td><td>47.09</td><td>67.55</td><td>70.40</td><td>91.82</td><td>93.46</td></tr>
 <tr><td>FjORD</td><td>85.12</td><td>87.32</td><td>49.29</td><td>52.67</td><td>71.95</td><td>74.98</td><td>94.31</td><td>93.97</td></tr>
 <tr><td>DepthFL</td><td>64.80</td><td>82.44</td><td>31.68</td><td>49.56</td><td>54.51</td><td>71.42</td><td>91.54</td><td>93.97</td></tr>
@@ -29,11 +34,24 @@ Results of NeFL with five submodels and SOTA baselines on five datasets under II
 Results of NeFL utilizing <strong>pre-trained</strong> models as initial weights for CIFAR-10 dataset under <strong>IID</strong> (left) and <strong>non-IID</strong> (right) settings. Numbers in parentheses denote the performance difference compared to scratch, with <span style="color:blue">blue</span> indicating improvement from pretraining, and <span style="color:red">red</span> indicating degradation.
 <table>
 <tbody>
-<tr><th rowspan=3>Model</th><th rowspan=3>Method</th><th colspan=2>IID</th><th colspan=2>non-IID</th></tr><tr><th>Worst</th><th>Avg</th><th>Worst</th><th>Avg</th></tr><tr>
-</tr><tr>
-<td rowspan=5>Pre-trained<br>ResNet18</td>
-<td>HeteroFL</td><td>78.26<span style="color:red">(&downarrow;2.36)</span></td><td>84.48<span style="color:blue">(&uparrow;0.22)</span></td><td>71.95<span style="color:red">(&downarrow;4.30)</span></td><td>76.17<span style="color:red">(&downarrow;3.94)</span></td></tr><tr>
-<td>FjORD</td><td>86.37<span style="color:blue">(&uparrow;1.25)</span></td><td>88.91<span style="color:blue">(&uparrow;1.59)</span></td><td>81.81<span style="color:blue">(&uparrow;6.00)</span></td><td>81.96<span style="color:blue">(&uparrow;3.97)</span></td></tr><tr><td>DepthFL</td><td>47.76<span style="color:red">(&downarrow;17.04)</span></td><td>82.86<span style="color:blue">(&uparrow;0.42)</span></td><td>39.78<span style="color:red">(&downarrow;19.83)</span></td><td>67.71<span style="color:red">(&downarrow;9.18)</span></td></tr><tr><td>ScaleFL</td><td>79.34<span style="color:red">(&downarrow;0.13)</span></td><td>86.16<span style="color:blue">(&uparrow;0.98)</span></td><td>69.47<span style="color:blue">(&uparrow;6.00)</span></td><td>78.01<span style="color:red">(&downarrow;0.48)</span></td></tr><tr><td><strong>NeFL(ours)</strong></td><td><strong>88.61</strong><span style="color:blue">(&uparrow;1.75)</span></td><td><strong>89.60</strong><span style="color:blue">(&uparrow;1.72)</span></td><td><strong>82.91</strong><span style="color:blue">(&uparrow;1.65)</span></td><td><strong>85.85</strong><span style="color:blue">(&uparrow;4.14)</span></td></tr><tr><td rowspan=5>Pre-trained<br>ResNet34</td><td>HeteroFL</td><td>79.97<span style="color:blue">(&uparrow;0.46)</span></td><td>84.34<span style="color:blue">(&uparrow;1.18)</span></td><td>72.33<span style="color:red">(&downarrow;3.70)</span></td><td>78.20<span style="color:red">(&downarrow;1.43)</span></td></tr><tr><td>FjORD</td><td>87.08<span style="color:blue">(&uparrow;1.96)</span></td><td>89.37<span style="color:blue">(&uparrow;2.01)</span></td><td>78.20<span style="color:blue">(&uparrow;3.50)</span></td><td>78.90<span style="color:blue">(&uparrow;2.89)</span></td></tr><tr><td>DepthFL</td><td>52.08<span style="color:blue">(&uparrow;26.35)</span></td><td>83.63<span style="color:blue">(&uparrow;8.33)</span></td><td>42.09<span style="color:blue">(&uparrow;11.67)</span></td><td>79.86<span style="color:blue">(&uparrow;9.10)</span></td></tr><tr><td>ScaleFL</td><td>67.66<span style="color:blue">(&uparrow;12.94)</span></td><td>85.77<span style="color:blue">(&uparrow;4.72)</span></td><td>52.59<span style="color:blue">(&uparrow;20.25)</span></td><td>78.29<span style="color:blue">(&uparrow;5.89)</span></td></tr><tr><td><strong>NeFL(ours)</strong></td><td><strong>88.36</strong><span style="color:blue">(&uparrow;0.65)</span></td><td><strong>91.14</strong><span style="color:blue">(&uparrow;2.12)</span></td><td><strong>83.62</strong><span style="color:blue">(&uparrow;2.86)</span></td><td><strong>86.48</strong><span style="color:blue">(&uparrow;3.18)</span></td></tr>
+<tr><th rowspan=3>Model</th>
+<th rowspan=3>Method</th>
+<th colspan=2>IID</th>
+<th colspan=2>non-IID</th></tr>
+<tr><th>Worst</th><th>Avg</th><th>Worst</th><th>Avg</th></tr>
+<tr></tr>
+<tr><td rowspan=5>Pre-trained<br>ResNet18</td>
+<td>HeteroFL</td><td>78.26<span style="color:red">(&downarrow;2.36)</span></td><td>84.48<span style="color:blue">(&uparrow;0.22)</span></td><td>71.95<span style="color:red">(&downarrow;4.30)</span></td><td>76.17<span style="color:red">(&downarrow;3.94)</span></td></tr>
+<tr><td>FjORD</td><td>86.37<span style="color:blue">(&uparrow;1.25)</span></td><td>88.91<span style="color:blue">(&uparrow;1.59)</span></td><td>81.81<span style="color:blue">(&uparrow;6.00)</span></td><td>81.96<span style="color:blue">(&uparrow;3.97)</span></td></tr>
+<tr><td>DepthFL</td><td>47.76<span style="color:red">(&downarrow;17.04)</span></td><td>82.86<span style="color:blue">(&uparrow;0.42)</span></td><td>39.78<span style="color:red">(&downarrow;19.83)</span></td><td>67.71<span style="color:red">(&downarrow;9.18)</span></td></tr>
+<tr><td>ScaleFL</td><td>79.34<span style="color:red">(&downarrow;0.13)</span></td><td>86.16<span style="color:blue">(&uparrow;0.98)</span></td><td>69.47<span style="color:blue">(&uparrow;6.00)</span></td><td>78.01<span style="color:red">(&downarrow;0.48)</span></td></tr>
+<tr><td><strong>NeFL(ours)</strong></td><td><strong>88.61</strong><span style="color:blue">(&uparrow;1.75)</span></td><td><strong>89.60</strong><span style="color:blue">(&uparrow;1.72)</span></td><td><strong>82.91</strong><span style="color:blue">(&uparrow;1.65)</span></td><td><strong>85.85</strong><span style="color:blue">(&uparrow;4.14)</span></td></tr>
+<tr><td rowspan=5>Pre-trained<br>ResNet34</td>
+<td>HeteroFL</td><td>79.97<span style="color:blue">(&uparrow;0.46)</span></td><td>84.34<span style="color:blue">(&uparrow;1.18)</span></td><td>72.33<span style="color:red">(&downarrow;3.70)</span></td><td>78.20<span style="color:red">(&downarrow;1.43)</span></td></tr>
+<tr><td>FjORD</td><td>87.08<span style="color:blue">(&uparrow;1.96)</span></td><td>89.37<span style="color:blue">(&uparrow;2.01)</span></td><td>78.20<span style="color:blue">(&uparrow;3.50)</span></td><td>78.90<span style="color:blue">(&uparrow;2.89)</span></td></tr>
+<tr><td>DepthFL</td><td>52.08<span style="color:blue">(&uparrow;26.35)</span></td><td>83.63<span style="color:blue">(&uparrow;8.33)</span></td><td>42.09<span style="color:blue">(&uparrow;11.67)</span></td><td>79.86<span style="color:blue">(&uparrow;9.10)</span></td></tr>
+<tr><td>ScaleFL</td><td>67.66<span style="color:blue">(&uparrow;12.94)</span></td><td>85.77<span style="color:blue">(&uparrow;4.72)</span></td><td>52.59<span style="color:blue">(&uparrow;20.25)</span></td><td>78.29<span style="color:blue">(&uparrow;5.89)</span></td></tr>
+<tr><td><strong>NeFL(ours)</strong></td><td><strong>88.36</strong><span style="color:blue">(&uparrow;0.65)</span></td><td><strong>91.14</strong><span style="color:blue">(&uparrow;2.12)</span></td><td><strong>83.62</strong><span style="color:blue">(&uparrow;2.86)</span></td><td><strong>86.48</strong><span style="color:blue">(&uparrow;3.18)</span></td></tr>
 </tbody>
 </table>
 <!-- <table align="center" width=800px border="1" style="border-collapse: collapse; border: 0.5px solid black; margin: auto; text-align: center">
