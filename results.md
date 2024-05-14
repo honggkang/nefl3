@@ -21,7 +21,7 @@ Results of NeFL with five submodels and SOTA baselines on five datasets under II
 <tr><td>DepthFL</td><td>64.80</td><td>82.44</td><td>31.68</td><td>49.56</td><td>54.51</td><td>71.42</td><td>91.54</td><td>93.97</td></tr>
 <tr><td>ScaleFL</td><td>79.47</td><td>85.18</td><td>41.00</td><td>49.76</td><td>70.55</td><td>73.85</td><td>93.15</td><td>94.53</td></tr>
 <tr><td><strong>NeFL(ours)</strong></td><td><strong>87.71</strong></td><td><strong>89.02</strong></td><td><strong>55.22</strong></td><td><strong>56.26</strong></td><td><strong>75.02</strong></td><td><strong>76.68</strong></td><td><strong>94.72</strong></td><td><strong>95.22</strong></td></tr>
-<td rowspan=5>ResNet34</td>
+<tr><td rowspan=5>ResNet34</td>
 <td>HeteroFL</td><td>79.51</td><td>83.16</td><td>34.96</td><td>39.75</td><td>67.39</td><td>69.62</td><td>89.86</td><td>92.39</td></tr>
 <tr><td>FjORD</td><td>85.12</td><td>87.36</td><td>47.59</td><td>50.7</td><td>71.58</td><td>74.19</td><td>93.83</td><td>94.63</td></tr>
 <tr><td>DepthFL</td><td>25.73</td><td>75.30</td><td>14.51</td><td>46.79</td><td>32.05</td><td>67.04</td><td>74.33</td><td>89.96</td></tr>
@@ -29,6 +29,7 @@ Results of NeFL with five submodels and SOTA baselines on five datasets under II
 <tr><td><strong>NeFL(ours)</strong></td><td><strong>87.71</strong></td><td><strong>89.02</strong></td><td><strong>55.22</strong></td><td><strong>56.26</strong></td><td><strong>75.02</strong></td><td><strong>76.68</strong></td><td><strong>94.72</strong></td><td><strong>95.22</strong></td></tr>
 </tbody>
 </table>
+
 
 
 Results of NeFL utilizing <strong>pre-trained</strong> models as initial weights for CIFAR-10 dataset under <strong>IID</strong> (left) and <strong>non-IID</strong> (right) settings. Numbers in parentheses denote the performance difference compared to scratch, with <span style="color:blue">blue</span> indicating improvement from pretraining, and <span style="color:red">red</span> indicating degradation.
