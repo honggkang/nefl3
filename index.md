@@ -1,7 +1,9 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
+
 # NeFL: Nested Model Scaling for Federated Learning with System Heterogeneous Clients
 
 

@@ -1,6 +1,7 @@
 ---
 title: Details
 layout: home
+nav_order: 3
 ---
 
 ## Details on architectures of submodels
