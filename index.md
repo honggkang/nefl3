@@ -5,9 +5,9 @@ layout: home
 # NeFL: Nested Model Scaling for Federated Learning with System Heterogeneous Clients
 
 
-### [Honggu Kang] &nbsp; [Seohyeon Cha] &nbsp; [Jinwoo Shin] &nbsp; Jongmyeong Lee &nbsp; [Joonhyuk Kang] <br>
+### [Honggu Kang] &nbsp;&nbsp; [Seohyeon Cha] &nbsp;&nbsp; [Jinwoo Shin] &nbsp;&nbsp; [Jongmyeong Lee] &nbsp;&nbsp; [Joonhyuk Kang] <br>
 ### [KAIST (Korea Advanced Institute of Science and Technology)] <br>
-### [[Paper]] &nbsp; [[Code]]
+### [[Paper]] &nbsp;&nbsp; [[Code]]
 
 ---
 <!-- <div style="font-size:16px; white-space: nowrap;">
@@ -50,6 +50,7 @@ NeFL divides a model into submodels by widthwise or/and depthwise and aggregate 
 ----
 [Honggu Kang]: https://honggkang.github.io/about/
 [Seohyeon Cha]: https://seohyeon-cha.github.io/
+[Jongmyeong Lee]: https://
 [Jinwoo Shin]: https://alinlab.kaist.ac.kr/shin.html
 [Joonhyuk Kang]: https://artlab.kaist.ac.kr/bbs/board.php?bo_table=sub1_1
 [KAIST (Korea Advanced Institute of Science and Technology)]: https://kaist.ac.kr/
