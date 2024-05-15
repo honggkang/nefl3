@@ -4,11 +4,28 @@ layout: home
 nav_order: 3
 ---
 
+## Training details
+
+- Trained by communication rounds of 500 (100 for SVHN)
+- 100 clients, fraction rate of 0.1 each round (i.e., 10 clients each round)
+- Local batch size of 32 and local epochs of 5
+- Optimizer: SGD with learning rate of 0.1 without momentum and weight decay
+- Learning rate decreased by a factor of 0.1 at halfway point and $\frac{3}{4}$ of the total communication rounds
+
+- System heterogeneity: each client trained one of the submodels in each iteration.
+  - One with five submodels ($N_s=5$, where $\boldsymbol{\gamma} =\left[\gamma_1, \gamma_2, \gamma_3, \gamma_4, \gamma_5\right] =\left[0.2,0.4,0.6,0.8,1\right]$).
+    - The clients were evenly distributed across tiers corresponding to the number of submodels.
+    - A client in tier $x$ selects a submodel uniformly from the range $[\max(\gamma_1,\gamma_{x-2}),\min(\gamma_{x+2},\gamma_5)]$ during each iteration due to dynamically varying system availability.
+- Statistical heterogeneity: label distribution skew following the Dirichlet distribution with a concentration parameter of $0.5$.
+
+
+
 ## Details on architectures of submodels
 
 Please note that the widthwise scaling (𝛾<sub>W</sub>) is uniformly applied across all blocks.
 
 Consider Model index 1 in NeFL-D on ResNet18. The architecture is illustrated as follows:
+
 <img src="./resources/submodel_ex.png" alt="drawing" width="600"/>
 
 ### ResNet18
