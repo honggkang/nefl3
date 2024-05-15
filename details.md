@@ -13,10 +13,10 @@ nav_order: 3
 - Learning rate decreased by a factor of 0.1 at halfway point and $\frac{3}{4}$ of the total communication rounds
 
 - System heterogeneity: each client trained one of the submodels in each iteration.
-  - One with five submodels ($N_s=5$, where $\boldsymbol{\gamma} =\left[\gamma_1, \gamma_2, \gamma_3, \gamma_4, \gamma_5\right] =\left[0.2,0.4,0.6,0.8,1\right]$).
+  - One with five submodels (<i>N<sub>s</sub></i>=5, where γ = [γ<sub>1</sub>, γ<sub>2</sub>, γ<sub>3</sub>, γ<sub>4</sub>, γ<sub>5</sub>] = [0.2, 0.4, 0.6, 0.8, 1]).
     - The clients were evenly distributed across tiers corresponding to the number of submodels.
-    - A client in tier $x$ selects a submodel uniformly from the range $[\max(\gamma_1,\gamma_{x-2}),\min(\gamma_{x+2},\gamma_5)]$ during each iteration due to dynamically varying system availability.
-- Statistical heterogeneity: label distribution skew following the Dirichlet distribution with a concentration parameter of $0.5$.
+    - A client in tier $x$ selects a submodel uniformly from the range [max(γ<sub>1</sub>, γ<sub>x-2</sub>), min(γ<sub>x+2</sub>, γ<sub>5</sub>)] during each iteration due to dynamically varying system availability.
+- Statistical heterogeneity: label distribution skew following the Dirichlet distribution with a concentration parameter of 0.5.
 
 
 
