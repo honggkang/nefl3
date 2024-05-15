@@ -291,6 +291,7 @@ Details of 𝛾 of NeFL on Wide ResNet101_2
 
 
 ## Pre-trained models (trained on ImageNet-1k)
+
 ### ResNet18/34
 - Trained by epochs of 90, batch size of 32
 - Optimizer: SGD with learning rate of 0.1, momentum of 0.9, and weight decay of 0.0001
@@ -313,3 +314,12 @@ Details of 𝛾 of NeFL on Wide ResNet101_2
   - Label smoothing of 0.11
   - Gradient norm clipping to 1
   - Model exponential moving average (EMA)
+
+## Comparing Wide ResNet101_2 & ViT-B/16
+### Training details
+- Trained by communication rounds of 100
+- 10 clients, fraction rate of 1 each round (i.e., 10 clients each round)
+- Local batch size of 32 and local epochs of 1
+- Optimizer: SGD with learning rate of 0.1 without momentum and weight decay
+- Cosine annealing learning rate scheduling with 500 steps of warmup and an initial learning rate of 0.03
+- Input images are resized to a size of 256x256 and randomly cropped to a size of 224x224 with a padding size of 28 28
