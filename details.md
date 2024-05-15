@@ -5,6 +5,12 @@ nav_order: 3
 ---
 
 ## Details on architectures of submodels
+
+Please note that the widthwise scaling (𝛾<sub>W</sub>) is uniformly applied across all blocks.
+
+Consider Model index 1 in NeFL-D on ResNet18. The architecture is illustrated as follows:
+<img src="./resources/submodel_ex.png" alt="drawing" width="600"/>
+
 ### ResNet18
 
 Details of 𝛾 of NeFL-D on ResNet18
@@ -32,7 +38,7 @@ Details of 𝛾 of NeFL-D on ResNet18
     <tr><td>5</td><td>1</td><td>1</td><td>1</td><td>1,1</td><td>1,1</td><td>1,1</td><td>1,1</td></tr>
   </tbody>
 </table>
-
+<br>
 Details of 𝛾 of NeFL-WD on ResNet18
 <table>
   <thead>
@@ -86,7 +92,7 @@ Details of 𝛾 of NeFL-D on ResNet34
     <tr><td>5</td><td>1</td><td>1</td><td>1</td><td>1,1,1</td><td>1,1,1,1</td><td>1,1,1,1,1,1</td><td>1,1,1</td></tr>
   </tbody>
 </table>
-
+<br>
 Details of 𝛾 of NeFL-WD on ResNet34
 <table>
   <thead>
