@@ -1,11 +1,12 @@
 ---
 title: Results
 layout: home
-nav_order: 2
+nav_order: 3
 ---
 
 
 Results of NeFL with five submodels and SOTA baselines on five datasets under IID settings. We report test performance including Top-1 classification accuracies (%) for the worst-case submodel and the average performance over five submodels.
+
 <table>
 <tbody>
 <tr><th rowspan=3>Model</th>
