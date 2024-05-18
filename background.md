@@ -20,8 +20,8 @@ Federated learning (FL) is a machine learning setting where multiple entities (c
 - A vast amount of data from edge devices
 - *Federated learning for on-device AI*
 
-<img src="./resources/cont_learning.png" width="480"/>
-<img src="./resources/iot_devices.png" width="295"/>
+<img src="./resources/cont_learning.png" width="420"/>
+<img src="./resources/iot_devices.png" width="260"/>
 
 ## System Heterogeneity
 - Computing power
@@ -32,9 +32,9 @@ Federated learning (FL) is a machine learning setting where multiple entities (c
     - 3G/4G/5G/Wi-Fi
 - Memory, battery, cloud-aided / on-device AI …
 
-<img src="./resources/hw_het.png" width="350"/>
-<img src="./resources/flop_mem_het.png" width="400"/>
-<img src="./resources/comm_het.png" width="400"/>
+<img src="./resources/hw_het.png" width="300"/>
+<img src="./resources/flop_mem_het.png" width="350"/>
+<img src="./resources/comm_het.png" width="350"/>
 
 ## Challenges of FL in this Era
 - Increasing model size + more heterogeneous devices
